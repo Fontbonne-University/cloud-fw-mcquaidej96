@@ -12,24 +12,72 @@
 </head>
 <body>
 <h1>Welcome to Games4Life Conf</h1>
-//this container contains three rows of the Games4life homepage
+<div class="container">
+<nav class="navbar fixed-top navbar-dark bg-primary">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="index.html" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="index.html" href="#">About event</a>
+            </li>
+            <li class="nav-item">
+                <a class="index.html" href="#">Schedule&Location</a>
+            </li>
+            <li class="nav-item">
+                <a class="www.fontbonne.edu" href="#">Fontbonne</a>
+            </li>
+            <li class="nav-item">
+                <a class="index.html" href="#">Special guests</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+    <a class="navbar-brand" href="#">Navbar</a>
+</nav>
+</div>
 <div class="container pt-4">
     <div class="row">
-        <div class="mb-4">
+        <div class="mt-5">
             <img class="rounded mx-auto d-block " src="images/stlouis.jpg" alt="st.louis">
             <h3>About event</h3>
             <p>The Games4Life is a two day long conference for the gaming community can come together as one and discuss about videogames new and or old. </p>
         </div>
-        <div class="mb-4">
-            <h3> Location</h3>
-            The location of the conference will be determined and finalized in a couple of weeks.
+        <div class="mt-5">
+            <!--Schedule&location -->
+            <h3> Schedule&Location</h3>
+
+            The schedule and location of the conference will be determined and finalized in a couple of weeks.
         </div>
-        <div class="mb-4">
+        <div class="mt-5">
+            <!--Special guests-->
             <h3>Special guests</h3>
             Special guests will be voice actors, coders, and others that have had experience  with the development of amazing past and present video game titles.
         </div>
     </div>
 </div>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
